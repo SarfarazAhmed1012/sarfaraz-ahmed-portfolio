@@ -1,10 +1,14 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
+import { TbBrandReact } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import { MdOutlineDisplaySettings } from "react-icons/md";
+
+import waOne from "@/public/wa-one.png";
+import afoMedia from "@/public/afo-media.png";
+import quranRecite from "@/public/quranrecite.png";
+import youthTube from "@/public/youth.webp";
+import storic from "@/public/storic.webp";
 
 export const links = [
   {
@@ -35,52 +39,93 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Bachelors in Computer Science",
+    location: "DHA Suffa University, Karachi, Pakistan",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated from DHA Suffa University specializing in Computer Science Domain",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2019-2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Intern - Mern Stack",
+    location: "Folio3, Karachi, Pakistan",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Facilitated my team in designing and developing user interfaces using Figma and React JS for a web application. Worked alongside the backend developer to ensure smooth integration of the front-end and back-end systems",
+    icon: React.createElement(MdOutlineDisplaySettings),
+    date: "June 2021 - September 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "React JS Intern",
+    location: "Techonventures, Karachi, Pakistan",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+      "• Transformed a mockup of a fintech dashboard into a React JS application. (https://wa-one-user.vercel.app/)",
     icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "February 2023 - March 2023",
+  },
+  {
+    title: "Associate React JS Developer",
+    location: "Techonventures, Karachi, Pakistan",
+    description:
+      "I'm now an associate React JS developer working on a fintech application and also worked on a video browsing website (AFOMedia). I have successfully integrated complex APIs into fintech and video browsing software, enhancing their capabilities and user experience.",
+    icon: React.createElement(TbBrandReact),
+    date: "April 2023 - Present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "AFOMedia",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a frontend developer on this project for 2 months in my recent company. This project is dynamic media streaming platform, which allows users to watch different categories journalism videos and shows",
+    tags: [
+      "React",
+      "react-bootstrap",
+      "react-jw-player",
+      "Context API",
+      "Swiper React",
+      "axios",
+    ],
+    link: "https://afomedia.com/",
+    imageUrl: afoMedia,
   },
   {
-    title: "rmtDev",
+    title: "WA-One",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Wa-One is a fintech, money transaction application which makes the transaction and bill payments process smooth giving the digital currency and a user friendly platform",
+    tags: [
+      "React",
+      "VITE",
+      "Redux Toolkit",
+      "Tailwind",
+      "Apex charts",
+      "Framer",
+    ],
+    link: "https://wa-one-user.vercel.app/",
+    imageUrl: waOne,
   },
   {
-    title: "Word Analytics",
+    title: "QuranEasy",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "In this application you can select and listen to all the surahs from Quran e Pak and you also can change the reciters. Integrated an api with the data of Chapters and different reciters",
+    tags: ["React", "Axios", "css"],
+    link: "https://quranrecitation.netlify.app/",
+    imageUrl: quranRecite,
+  },
+  {
+    title: "Youthtube",
+    description:
+      "A youtube clone with all the functionalities like search, select, play and show related videos. User is able to search different videos and also filter the videos with different categories",
+    tags: ["React", "Axios", "css", "Rapid API", "Material UI"],
+    link: "https://youthtube.netlify.app/",
+    imageUrl: youthTube,
+  },
+  {
+    title: "Admin Dashboard Template (Storic)",
+    description:
+      "Created a responsive admin dashboard that utilizes React JS and the Context API, incorporating Synfusion's calendar, kanban, and editor components",
+    tags: ["React", "Context api", "Syncfusion Components", "css"],
+    link: "https://syncfusion-admin-dashboard-1012.netlify.app/ecommerce",
+    imageUrl: storic,
   },
 ] as const;
 
@@ -97,11 +142,10 @@ export const skillsData = [
   "Prisma",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
+  "Firebase",
+  "JW Player",
   "Express",
-  "PostgreSQL",
+  "MySql",
   "Python",
-  "Django",
   "Framer Motion",
 ] as const;
