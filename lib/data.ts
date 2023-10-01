@@ -4,9 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import { MdOutlineDisplaySettings } from "react-icons/md";
 
-import waOne from "@/public/wa-one.png";
-import afoMedia from "@/public/afo-media.png";
-import quranRecite from "@/public/quranrecite.png";
+import waOne from "../public/wa-one.png";
+import afoMedia from "../public/afo-media.png";
+import quranRecite from "../public/quranrecite.png";
 import youthTube from "@/public/youth.webp";
 import storic from "@/public/storic.webp";
 
