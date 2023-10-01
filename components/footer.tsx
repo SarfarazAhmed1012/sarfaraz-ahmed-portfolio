@@ -10,7 +10,7 @@ export default function Footer() {
         <span className=" font-semibold">About this portfolio website:</span>{" "}
         built with React & Next.js (App router and server actions), Typescript,
         Tailwind CSS, Framer Motion, React Email, Resend, React Hot Toast and
-        deployement on vercel.
+        vercel deployement.
       </p>
     </footer>
   );
