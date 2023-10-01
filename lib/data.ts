@@ -58,7 +58,7 @@ export const experiencesData = [
     title: "React JS Intern",
     location: "Techonventures, Karachi, Pakistan",
     description:
-      "• Transformed a mockup of a fintech dashboard into a React JS application. (https://wa-one-user.vercel.app/)",
+      "Transformed a mockup of a fintech dashboard into a React JS application. (https://wa-one-user.vercel.app/)",
     icon: React.createElement(FaReact),
     date: "February 2023 - March 2023",
   },
