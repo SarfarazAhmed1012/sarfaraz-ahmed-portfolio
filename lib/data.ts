@@ -115,7 +115,7 @@ export const projectsData = [
     title: "Youthtube",
     description:
       "A youtube clone with all the functionalities like search, select, play and show related videos. User is able to search different videos and also filter the videos with different categories",
-    tags: ["React", "Axios", "css", "Rapid API", "Material UI"],
+    tags: ["React", "Axios", "css", "Material UI", "Rapid API"],
     link: "https://youthtube.netlify.app/",
     imageUrl: youthTube,
   },
