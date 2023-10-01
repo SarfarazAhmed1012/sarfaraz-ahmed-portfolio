@@ -27,7 +27,7 @@ export default function About() {
         of finally figuring out a solution. My core stack is{" "}
         <span className="font-medium">React, Next.js</span>. I am also familiar
         with Node.js, MongoDB, TypeScript and Prisma. I am always eager to learn
-        new technologies. Currently, I'm actively seeking a{" "}
+        new technologies. Currently, {"I'm"} actively seeking a{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
