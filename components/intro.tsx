@@ -8,7 +8,7 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import profileImg from "../public/ahmed.png";
+import profileImg from "../public/animated.jpg";
 
 export default function Intro() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =

@@ -9,6 +9,7 @@ import afoMedia from "../assets/afo-media.png";
 import quranRecite from "../assets/quranrecite.png";
 import youthTube from "@/public/youth.webp";
 import storic from "@/public/storic.webp";
+import prompt from "../assets/Prompt.png";
 
 export const links = [
   {
@@ -104,6 +105,14 @@ export const projectsData = [
     imageUrl: waOne,
   },
   {
+    title: "Promptify",
+    description:
+      "An innovative platform designed for managing and creating AI prompts with ease.",
+    tags: ["NEXT JS", "React JS", "NextAuth", "Tailwind CSS", "Mongo DB"],
+    link: "https://youthtube.netlify.app/",
+    imageUrl: prompt,
+  },
+  {
     title: "QuranEasy",
     description:
       "In this application you can select and listen to all the surahs from Quran e Pak and you also can change the reciters. Integrated an api with the data of Chapters and different reciters",
@@ -119,12 +128,13 @@ export const projectsData = [
     link: "https://youthtube.netlify.app/",
     imageUrl: youthTube,
   },
+
   {
     title: "Admin Dashboard Template (Storic)",
     description:
       "Created a responsive admin dashboard that utilizes React JS and the Context API, incorporating Synfusion's calendar, kanban, and editor components",
     tags: ["React", "Context api", "Syncfusion Components", "css"],
-    link: "https://syncfusion-admin-dashboard-1012.netlify.app/ecommerce",
+    link: "https://syncfusion-admin-dashboard-1012.netlify.app",
     imageUrl: storic,
   },
 ] as const;
