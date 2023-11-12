@@ -10,6 +10,7 @@ import quranRecite from "../assets/quranrecite.png";
 import youthTube from "@/public/youth.webp";
 import storic from "@/public/storic.webp";
 import prompt from "../assets/Prompt.png";
+import nike from "../assets/nike.png";
 
 export const links = [
   {
@@ -104,6 +105,7 @@ export const projectsData = [
     link: "https://wa-one-user.vercel.app/",
     imageUrl: waOne,
   },
+
   {
     title: "Promptify",
     description:
@@ -136,6 +138,14 @@ export const projectsData = [
     tags: ["React", "Context api", "Syncfusion Components", "css"],
     link: "https://syncfusion-admin-dashboard-1012.netlify.app",
     imageUrl: storic,
+  },
+  {
+    title: "Nike landing page",
+    description:
+      "Nike responsive landing page made with React JS and tailwind css",
+    tags: ["React", "Tailwind"],
+    link: "https://nike-landing-page-1012.vercel.app/",
+    imageUrl: nike,
   },
 ] as const;
 
