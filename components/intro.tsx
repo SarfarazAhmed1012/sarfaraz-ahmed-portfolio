@@ -63,11 +63,13 @@ export default function Intro() {
         transition={{ delay: 0.3 }}
       >
         <span className="font-bold">Hello, {"I'm"} Sarfaraz.</span> {"I'm"} a{" "}
-        <span className="font-bold">frontend developer</span> with{" "}
-        <span className="font-bold">1+ years</span> of experience. I enjoy
+        <span className="font-bold">Full Stack Developer</span> with{" "}
+        <span className="font-bold">1.5+ years</span> of experience. I enjoy
         building{" "}
-        <span className="italic">clean and user friendly sites & apps</span>. My
-        focus is <span className="underline">React (Next.js) and MERN</span>.
+        <span className="italic">
+          clean, optimized, and user friendly sites & apps
+        </span>
+        . My focus is <span className="underline">Next.js and MERN</span>.
       </motion.h1>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -87,7 +89,7 @@ export default function Intro() {
           <BsArrowRight className="group-hover:translate-x-2 transition" />{" "}
         </Link>
         <a
-          href="/Sarfaraz_Ahmed.pdf"
+          href="/sarfaraz__ahmed.pdf"
           download={true}
           className=" bg-white dark:bg-white/10 group px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  active:scale-105 transition cursor-pointer border border-black/10"
         >
