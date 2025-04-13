@@ -13,7 +13,7 @@ import profileImg from "../public/animated.jpg";
 export default function Intro() {
   const { activeSection, setActiveSection, setTimeOfLastClick } =
     useActiveSectionContext();
-  const { ref } = useSectionInView("Home", 0.5);
+  const { ref } = useSectionInView("Home", 0.1);
   return (
     <section
       ref={ref}
@@ -64,7 +64,7 @@ export default function Intro() {
       >
         <span className="font-bold">Hello, {"I'm"} Sarfaraz.</span> {"I'm"} a{" "}
         <span className="font-bold">Full Stack Developer</span> with{" "}
-        <span className="font-bold">1.5+ years</span> of experience. I enjoy
+        <span className="font-bold">2 years</span> of experience. I enjoy
         building{" "}
         <span className="italic">
           clean, optimized, and user friendly sites & apps

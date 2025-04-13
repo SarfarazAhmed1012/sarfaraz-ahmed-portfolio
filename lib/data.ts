@@ -14,6 +14,7 @@ import storic from "@/public/storic.webp";
 import prompt from "../assets/Prompt.png";
 import nike from "../assets/nike.png";
 import instaBot from "../assets/insta_bot.jpeg";
+import spendWise from "../assets/spendwise.png";
 
 export const links = [
   {
@@ -145,7 +146,22 @@ export const projectsData = [
     link: "https://wa-one-user.vercel.app/",
     imageUrl: waOne,
   },
-
+  {
+    title: "SpendWise",
+    description:
+      "Full-stack Expense Tracker using React, Node.js, and GraphQL with user authentication and transaction analytics features.",
+    tags: [
+      "React",
+      "Node JS",
+      "Express JS",
+      "GraphQL",
+      "Tailwind CSS",
+      "Mongo DB",
+      "Apollo Client",
+    ],
+    link: "https://spendwise.netlify.app/",
+    imageUrl: spendWise,
+  },
   {
     title: "Promptify",
     description:
@@ -154,6 +170,7 @@ export const projectsData = [
     link: "https://youthtube.netlify.app/",
     imageUrl: prompt,
   },
+
   {
     title: "QuranEasy",
     description:
@@ -190,6 +207,10 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Microservices",
+  "Redis",
+  "GraphQL",
+  "Chatbot Development (Instagram, Telegram, Whatsapp)",
   "HTML",
   "CSS",
   "JavaScript",
@@ -197,6 +218,7 @@ export const skillsData = [
   "React",
   "Next.js",
   "Node.js",
+  "Docker",
   "Git",
   "Tailwind",
   "Prisma",
@@ -210,6 +232,5 @@ export const skillsData = [
   "Framer Motion",
   "AWS",
   "Sockets",
-  "Chatbot",
   "Graph APIs",
 ] as const;
