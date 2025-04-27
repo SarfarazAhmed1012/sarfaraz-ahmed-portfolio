@@ -15,6 +15,7 @@ import prompt from "../assets/Prompt.png";
 import nike from "../assets/nike.png";
 import instaBot from "../assets/insta_bot.jpeg";
 import spendWise from "../assets/spendwise.png";
+import microservice from "../assets/microservice.png";
 
 export const links = [
   {
@@ -74,7 +75,7 @@ export const experiencesData = [
     description:
       "As a React JS developer worked on a fintech application and also worked on a video browsing website (AFOMedia). I have successfully integrated complex APIs into fintech and video browsing software, enhancing their capabilities and user experience.",
     icon: React.createElement(TbBrandReact),
-    date: "April 2023 - Present",
+    date: "April 2023 - November 2023",
   },
   {
     title: "Full Stack Developer",
@@ -82,7 +83,7 @@ export const experiencesData = [
     description:
       "I'm now working as Full Stack Developer where I have developed front-end and back-end for multiple fintech websites, ensuring seamless integration. Also managed S3 buckets for efficient storage and retrieval of financial data.",
     icon: React.createElement(BsStack),
-    date: "April 2023 - Present",
+    date: "November 2023 - Present",
   },
 ] as const;
 
@@ -145,6 +146,23 @@ export const projectsData = [
     ],
     link: "https://wa-one-user.vercel.app/",
     imageUrl: waOne,
+  },
+  {
+    title: "MicroSocial",
+    description:
+      "A scalable social media app built with Node.js microservices architecture, leveraging Redis for caching, RabbitMQ for messaging, and Docker for seamless deployment, featuring API Gateway, Identity, Post, Search, Messaging, and Media services.",
+    tags: [
+      "Node JS",
+      "Express JS",
+      "Redis",
+      "Event driven architecture",
+      "Microservices",
+      "Docker",
+      "RabbitMQ",
+      "Message Queue",
+    ],
+    link: "https://github.com/SarfarazAhmed1012/social-media-micro-services",
+    imageUrl: microservice,
   },
   {
     title: "SpendWise",
